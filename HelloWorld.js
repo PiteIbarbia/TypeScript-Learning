@@ -1,8 +1,6 @@
 // console.log("Hello world");
-
-function hello(string: String) {
+function hello(string) {
     console.log("Hello " + string);
 }
-
 hello("Jon");
 hello("Robb");
