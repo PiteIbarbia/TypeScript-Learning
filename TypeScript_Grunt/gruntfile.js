@@ -4,10 +4,11 @@ module.exports = function(grunt){
     grunt.initConfig({
         ts: {
             main:{
-                src: ['TypeScript/main.ts'],
-                des:'javascript/'
+                src: ['typescript/*.ts'],
+                out:'javascript/main.js'
             }
         }
     });
-    grunt.registerTask('default', ['ts']);
+
+    grunt.registerTask('default',['ts']);
 }
